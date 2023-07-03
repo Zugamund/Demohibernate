@@ -20,6 +20,7 @@ public class DemohibernateApplication {
 		for (Person person : personneRepository.findAll()) {
 			System.out.println(person.getName());
 		}
+		
 	}
 
 }
